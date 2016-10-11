@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AuthInstagramModule</string>
+    <string name="instagram_id">client id</string>
+    <string name="instagram_secret">client secret</string>
+    <string name="callbackurl">your callback url</string>
+    <string name="sign_in_via_instagram">Sign in via Instagram</string>
+</resources>

@@ -1,7 +1,7 @@
 # android-OAuth-Instagram
 Simple Android OAuth Instagram implementation.
 
-##Usage
+## Usage
 Register your application on https://www.instagram.com/developer/
 ```gradle
 dependencies {

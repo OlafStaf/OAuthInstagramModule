@@ -39,10 +39,10 @@ public class InstagramActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(com.yummi.oauthinstagram.R.layout.main);
         url = getIntent().getStringExtra(INSTAGRAM_AUTH_URL);
-        webView = (WebView) findViewById(com.yummi.oauthinstagram.R.id.webview);
+        webView = (WebView) findViewById(R.id.webview);
         progressDialog = new ProgressDialog(this);
         progressDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        progressDialog.setMessage(getString(com.yummi.oauthinstagram.R.string.loading));
+        progressDialog.setMessage(getString(R.string.loading));
         CookieManager cookieManager = CookieManager.getInstance();
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
             CookieSyncManager.createInstance(this);
